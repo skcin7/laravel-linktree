@@ -1,0 +1,31 @@
+{
+    "name": "skcin7/laravel-linktree",
+    "description": "Linktree for use in a Laravel application.",
+    "type": "library",
+    "keywords": ["laravel", "linktree"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Nick Morgan",
+        "email": "nick@nicholas-morgan.com"
+    }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Skcin7\\LaravelLinktree\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Skcin7\\LaravelLinktree\\Providers\\LaravelLinktreeServiceProvider"
+          ],
+          "aliases": {
+              "Linktree": "Skcin7\\LaravelLinktree\\Facades\\Linktree"
+          }
+      }
+    }
+
+
+}
