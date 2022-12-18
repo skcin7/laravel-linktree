@@ -1,6 +1,6 @@
 <?php
 
-namespace Skcin7\LaravelLinktree\Http\Controllers;
+namespace Skcin7\LaravelGlobalSettings\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

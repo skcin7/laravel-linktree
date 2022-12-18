@@ -1,10 +1,10 @@
 <?php
 
-namespace Skcin7\LaravelLinktree\Tests\Unit;
+namespace Skcin7\LaravelGlobalSettings\Tests\Unit;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Skcin7\LaravelLinktree\Tests\TestCase;
-use Skcin7\LaravelLinktree\Models\Group;
+use Skcin7\LaravelGlobalSettings\Tests\TestCase;
+use Skcin7\LaravelGlobalSettings\Models\Group;
 
 class GroupTest extends TestCase
 {

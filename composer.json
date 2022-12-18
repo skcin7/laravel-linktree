@@ -1,8 +1,8 @@
 {
-    "name": "skcin7/laravel-linktree",
-    "description": "Linktree for use in a Laravel application.",
+    "name": "skcin7/laravel-global-settings",
+    "description": "A global settings package for use in a Laravel application.",
     "type": "library",
-    "keywords": ["laravel", "linktree"],
+    "keywords": ["laravel", "global settings", "global", "settings"],
     "license": "MIT",
     "authors": [
     {
@@ -10,19 +10,26 @@
         "email": "nick@nicholas-morgan.com"
     }
     ],
-    "require": {},
+    "require": {
+        "php": "^5|^6|^7|^8",
+        "illuminate/support": "^4.2|^5|^6|^7|^8|^9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4|^5|^6|^7|^8|^9",
+        "laravel/framework": ">=5.7"
+    },
     "autoload": {
         "psr-4": {
-            "Skcin7\\LaravelLinktree\\": "src/"
+            "Skcin7\\LaravelGlobalSettings\\": "src/"
         }
     },
     "extra": {
       "laravel": {
           "providers": [
-              "Skcin7\\LaravelLinktree\\Providers\\LaravelLinktreeServiceProvider"
+              "Skcin7\\LaravelGlobalSettings\\Providers\\LaravelGlobalSettingsServiceProvider"
           ],
           "aliases": {
-              "Linktree": "Skcin7\\LaravelLinktree\\Facades\\Linktree"
+              "GlobalSettings": "Skcin7\\LaravelGlobalSettings\\Facades\\GlobalSettings"
           }
       }
     }
